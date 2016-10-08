@@ -22,5 +22,7 @@ class TestAVeryLongFileName < Minitest::Test
 
 end
 ```
+### Limitations:
 
+Will only work with spec files names exactly_like_this_spec.rb and with a Class file in the directory above.
 
