@@ -3,8 +3,8 @@ Creates basic structure for Ruby spec files
 
 ###Usage:
 
-Copy 
-Type "!head" at the top of your <class_name>_spec.rb file
+- Copy spec_auto_header.sublime-snippet into ~/Library/Application Support/Sublime Text 3/Packages/User/
+- Type "!head" at the top of your _spec.rb file
 
 
 `a_very_long_file_name_spec.rb`
