@@ -7,10 +7,10 @@ Creates basic structure for Ruby spec files
 - Type "!head" at the top of your _spec.rb file
 
 
-### Operationn
+### Operation -
 `a_very_long_file_name_spec.rb`
 
-## Becomes -
+#### Becomes -
 ```
 require 'minitest/autorun'
 require 'minitest/rg'
