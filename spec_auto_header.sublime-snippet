@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+require 'minitest/autorun'
+require 'minitest/rg'
+require 'pry-byebug'
+require '../${TM_FILENAME/(\w+)(_spec.rb)/\1/g}'
+
+class Test${TM_FILENAME/(_spec.rb)|^(\w)|(?:_(\w))|/(?1)(?2\u$2)(?3\u$3)/g} < Minitest::Test
+	
+
+
+
+end
+]]>
+			
+	</content>
+	<tabTrigger>!head</tabTrigger>
+	<scope>source.ruby</scope>
+</snippet>
+
+
+
+
